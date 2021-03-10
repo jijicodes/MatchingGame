@@ -26,12 +26,13 @@ h1 {
 
 .card {
   background-color: transparent;
-  width: 100px;
-  height: 100px;
+  width: 21vw;
+  height: 21vw;
+  min-width: auto;
   perspective: 1000px;
   border-radius: 5px;
   cursor: pointer;
-  margin: 10px;
+  margin: 1vw;
 }
 
 .card-inner {
@@ -70,7 +71,7 @@ h1 {
   display: flex;
   justify-content: center;
   align-items: center;
-  font-size: 3rem;
+  font-size: 1rem;
 }
 
 .card-back {
@@ -99,6 +100,29 @@ h1 {
 
 .winner {
   animation: blinker 1s linear infinite;
+}
+
+@media (min-width: 650px) {
+  .card-front,
+  .card-back {
+    font-size: 3rem;
+  }
+  .card {
+    width: 100px;
+    height: 100px;
+    min-width: auto;
+    margin: 10;
+  }
+}
+
+@media (min-width: 400px) {
+  .card-front,
+  .card-back {
+    font-size: 2rem;
+  }
+  .board {
+    margin-top: 0;
+  }
 }
 
 @keyframes blinker {
