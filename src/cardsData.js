@@ -1,105 +1,105 @@
 const cards = [
   {
-    value: "😂",
+    value: "💍",
     flipped: false,
-    id: 1
+    id: 1,
   },
   {
-    value: "🍀",
+    value: "💍",
     flipped: false,
-    id: 2
+    id: 2,
   },
   {
-    value: "🌻",
+    value: "🍪",
     flipped: false,
-    id: 3
+    id: 3,
   },
   {
-    value: "🌈",
+    value: "⛰️",
     flipped: false,
-    id: 4
+    id: 4,
   },
   {
-    value: "🐸",
+    value: "⛰️",
     flipped: false,
-    id: 5
+    id: 5,
   },
   {
-    value: "🐱",
+    value: "🌏",
     flipped: false,
-    id: 6
+    id: 6,
   },
   {
-    value: "🐶",
+    value: "🌏",
     flipped: false,
-    id: 7
+    id: 7,
   },
   {
-    value: "🥨",
+    value: "🌺",
     flipped: false,
-    id: 8
+    id: 8,
   },
   {
-    value: "🌯",
+    value: "🌺",
     flipped: false,
-    id: 9
+    id: 9,
   },
   {
-    value: "😍",
+    value: "🥰",
     matched: false,
     flipped: false,
-    id: 10
+    id: 10,
   },
   {
-    value: "😂",
+    value: "🥰",
     flipped: false,
-    id: 11
-  },
-  {
-    value: "🍀",
-    flipped: false,
-    id: 12
-  },
-  {
-    value: "🌻",
-    flipped: false,
-    id: 13
-  },
-  {
-    value: "🌈",
-    flipped: false,
-    id: 14
-  },
-  {
-    value: "🐸",
-    flipped: false,
-    id: 15
-  },
-  {
-    value: "🐱",
-    flipped: false,
-    id: 16
+    id: 11,
   },
   {
     value: "🐶",
     flipped: false,
-    id: 17
+    id: 12,
   },
   {
-    value: "🥨",
+    value: "🧶",
     flipped: false,
-    id: 18
+    id: 13,
   },
   {
-    value: "🌯",
+    value: "🇰🇷",
     flipped: false,
-    id: 19
+    id: 14,
   },
   {
-    value: "😍",
+    value: "👩🏻‍💻",
     flipped: false,
-    id: 20
-  }
+    id: 15,
+  },
+  {
+    value: "🇰🇷",
+    flipped: false,
+    id: 16,
+  },
+  {
+    value: "🐶",
+    flipped: false,
+    id: 17,
+  },
+  {
+    value: "🧶",
+    flipped: false,
+    id: 18,
+  },
+  {
+    value: "👩🏻‍💻",
+    flipped: false,
+    id: 19,
+  },
+  {
+    value: "🍪",
+    flipped: false,
+    id: 20,
+  },
 ];
 
 // This shuffles the cards every time.
