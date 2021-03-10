@@ -103,4 +103,4 @@ const cards = [
 ];
 
 // This shuffles the cards every time.
-export default cards.sort(() => Math.random() - 0.5);
+export default () => cards.sort(() => Math.random() - 0.5);
