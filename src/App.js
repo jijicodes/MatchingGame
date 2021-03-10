@@ -6,7 +6,8 @@ import "./styles.css";
 import deck from "./cardsData";
 
 export default function App() {
-  const [cards, setCards] = useState(deck);
+  const [cards, setCards] = useState(deck());
+
   const [selectedCards, setSelectedCards] = useState([]);
   const [gameWon, setGameWon] = useState(false);
   const [score, setScore] = useState(0);
@@ -69,6 +70,19 @@ export default function App() {
       <ScoreBoard gameWon={gameWon} score={score} />
       <h2>{gameWon ? ` Final Score ${score}!` : null}</h2>
       <GameBoard cards={cards} flipCard={flipCard} />
+      {gameWon && (
+        <button
+          className="resetButton"
+          onClick={() => {
+            setSelectedCards([]);
+            setGameWon(false);
+            setScore(0);
+            setCards(deck());
+          }}
+        >
+          Restart
+        </button>
+      )}
     </div>
   );
 }
