@@ -8,7 +8,7 @@ export default function Carad({ card, flipCard }) {
         style={{ transform: card.flipped ? "rotateY(180deg)" : null }}
       >
         <div className="card-back">{card.value}</div>
-        <div className="card-front">❤️</div>
+        {!card.flipped && <div className="card-front">❤️</div>}
       </div>
     </div>
   );
